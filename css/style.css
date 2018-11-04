@@ -1,0 +1,29 @@
+#slider {
+  width: 384px;
+  height: 128px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+#photoLine {
+  width: 896px;
+  left: 0;
+  position: relative;
+  transition: all ease 1s;
+}
+
+#photoLine img {
+  float: left;
+}
+
+#photoLine::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* button {
+  padding: 5px 25px;
+} */
